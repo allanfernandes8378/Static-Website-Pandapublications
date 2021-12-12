@@ -1,0 +1,214 @@
+body {
+    margin:0px;
+    margin-top: 0px;
+}
+header {
+    display: flex;
+    position: absolute;
+    border:#CFB53B;
+    border-width:2.5px;
+    border-radius:5px; 
+    border-style:outset;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 70px;
+    line-height: 50px;
+    background-color:black;
+    
+    }
+header * {
+    display: inline;
+    height: 70px;
+}
+
+header li {
+    margin-left: 20px;
+    }
+ul,li,a{
+    text-decoration: None;
+    color:#CFB53B;
+   
+}
+.yo {
+    background-color: #CFB53B; /* Green */
+    border: none;
+    border-radius: 20px;
+    color: white;
+    padding: 6px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 20px 39px;
+    transition-duration: 1s;
+    cursor: pointer;
+    height: 35px;
+
+    
+  }
+  
+  .yo1 {
+    background-color: black; 
+    color: #CFB53B; 
+    border: 2px solid #CFB53B;
+  }
+  
+  .yo1:hover {
+    background-color: #CFB53B;
+    color: white;
+  }
+  
+  
+#main_links {
+    height: 35vh;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    background-color:black;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center
+}
+#engnotestitle {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 55px;
+    margin: 25px 0px 25px 0px;
+    color:#CFB53B;
+}
+.button1 {
+    background-color: #CFB53B; /* Green */
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 32px;
+    margin-left: 20px;
+    font-weight: bold;
+  }
+.button1:hover {
+    background-color: #000;
+    color:#CFB53B;
+    cursor:pointer;
+    box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
+}
+  #about {
+    height: 50vh;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color:#CFB53B;
+    padding-left: 250px ;
+    padding-right: 250px ;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center
+
+  }
+  #hero {
+    background-image: url("https://source.unsplash.com/1600x900/?student,books,study,library");
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    color:#ffff;
+    font-size: 44px;
+    font-family: 'Dancing Script', cursive;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+  }
+footer {
+    background-color:black;
+    color: #CFB53B;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    border:#CFB53B;
+    border-width:2.5px;
+    border-radius:5px; 
+    border-style:outset;
+}
+.kapil {
+    float: left;
+    
+    text-align: center;
+    text-decoration: none;
+    font-size: 19px;
+    padding-top: 10px;
+    
+    }
+
+.layoutbg {
+  height: 95vh;
+  border: 1px solid #CFB53B;
+  display: flex;
+  background-color:#CFB53B;
+}
+#layouttitle{
+  color:white;
+}
+
+
+#mech {
+  height: 150vh;
+  border: 1px solid black;
+  
+  text-align: left;
+  background-color:black;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border:#CFB53B;
+  border-width:2.5px;
+  border-radius:5px; 
+  border-style:outset;
+}
+#heading {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 55px;
+  margin: 50px 0px 25px 0px;
+  color:#CFB53B;
+  padding:18px 12px;
+}
+.layoutbodybutton{
+  background-color: #CFB53B; /* Green */
+  border: none;
+    color: rgb(0, 0, 0);
+    padding: 25px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 32px;
+    font-weight: bold;
+    width: 100%;
+}
+.layoutbodybutton:hover {
+  background-color: #000;
+  color:#CFB53B;
+  cursor:pointer;
+  box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
+  border:#CFB53B;
+  border-width:1px;
+  border-radius:32px; 
+  border-style:solid;
+}
